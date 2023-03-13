@@ -1,0 +1,41 @@
+body{
+    background: #94c5e3;
+}
+
+form{
+    width: 300px;
+    padding: 20px;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    background-color: #ecf0f3;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.input-field{
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: inset -5px -5px 12px #fff, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    margin-bottom: 20px;
+}
+.input-btn{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    background-color: #ecf0f3;
+}
+
+.color{
+    background: crimson;
+    color: white;
+}

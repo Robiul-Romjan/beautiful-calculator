@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+
+    <main>
+        <section>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-12 mt-5">
+                        <div class="calculator">
+                            <form>
+                                <h2>Calculator</h2>
+                                <input class="input-field" type="text" id="input-field" disabled><br>
+                                <input onclick="clearAll()" class="input-btn color"  type="button" value="C">
+                                <input onclick="deleteValue()" class="input-btn color" type="button" value="DE">
+                                <input onclick="calculation('%')" class="input-btn color" type="button" value="%">
+                                <input onclick="calculation('*')" class="input-btn color" type="button" value="*"><br>
+                                <input onclick="calculation('7')" class="input-btn" type="button" value="7">
+                                <input onclick="calculation('8')" class="input-btn" type="button" value="8">
+                                <input onclick="calculation('9')" class="input-btn" type="button" value="9">
+                                <input onclick="calculation('/')" class="input-btn color" type="button" value="/"><br>
+                                <input onclick="calculation('4')" class="input-btn" type="button" value="4">
+                                <input onclick="calculation('5')" class="input-btn" type="button" value="5">
+                                <input onclick="calculation('6')" class="input-btn" type="button" value="6">
+                                <input onclick="calculation('-')" class="input-btn color" type="button" value="-"><br>
+                                <input onclick="calculation('1')" class="input-btn" type="button" value="1">
+                                <input onclick="calculation('2')" class="input-btn" type="button" value="2">
+                                <input onclick="calculation('3')" class="input-btn" type="button" value="3">
+                                <input onclick="calculation('+')" class="input-btn color" type="button" value="+"><br>
+                                <input onclick="calculation('0')" class="input-btn" type="button" value="0">
+                                <input onclick="calculation('00')" class="input-btn" type="button" value="00">
+                                <input onclick="calculation('.')" class="input-btn" type="button" value=".">
+                                <input onclick="equation('=')" class="input-btn color" type="button" value="=">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
